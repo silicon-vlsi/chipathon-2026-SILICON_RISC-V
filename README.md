@@ -6,7 +6,6 @@
   - **QSPI Flash and RAM as Reusable IP**: When designing small RISC-V cores, adding SRAM for instruction and data is usually not practical. Instead, accessing an extrnal FLASH and RAM through a QSPI protocol is a great choice is speed is not an issue. Although there are few RISCV in the open-source community, they are embedded in designs which makes it diffcult for designers to drop it in their design as an _reusable IP_. The aim of this project is to create such an resuable IP.
 
 
-
 # chipathon-2026-gf180mcu-padring
 
 Chipathon 2026 workshop fork of the wafer-space `gf180mcu-project-template`.
