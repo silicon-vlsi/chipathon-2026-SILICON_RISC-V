@@ -1,7 +1,10 @@
 # Chipathon 2026 Team A30 SILICON_RISC-V 
 
-- **Project Title**: 32-bit RISC-V (RV32I) microcontroller using TL-Verilog and Librelane-ORFS Flow
-- **Project Description**:The project aims to design and implement a basic 32-bit RISC-V processor compliant with the RV32I base instruction set. TL-Verilog (TLV) will be the main design language, enabling transaction-level modeling and timing abstraction for faster development and better architectural insight. TLV descriptions will be translated into SystemVerilog using Sandpiper. A simple APB bus will connect to external serial memory and integrate an on-chip ADC and DAC, forming a minimal microcontroller platform.
+- **TITLE**: 32-bit RISC-V (RV32I) microcontroller using TL-Verilog and Librelane-ORFS Flow
+- **DESCRIPTION**:The project aims to design and implement a basic **32-bit RISC-V processor** compliant with the RV32I base instruction set. Two prime objective of this project:
+  - **TL-Verilog (TLV)** from [Redwood EDA](https://redwoodeda.com) will be used to develop the RISC-V core. TLV's transaction-level modeling and timing abstraction will enable for faster development and better architectural insight. The [MakeChip IDE](https://makerchip.com) overs interactive documentation and a very powerful visualization code that makes design and verification of the designs like RISC-V processor very efficient. We believe this is the first time TLV is used Chipathon. A design methodology involving TLV will be good value addition to the open-source ecosystem.
+  - **QSPI Flash and RAM as Reusable IP**: When designing small RISC-V cores, adding SRAM for instruction and data is usually not practical. Instead, accessing an extrnal FLASH and RAM through a QSPI protocol is a great choice is speed is not an issue. Although there are few RISCV in the open-source community, they are embedded in designs which makes it diffcult for designers to drop it in their design as an _reusable IP_. The aim of this project is to create such an resuable IP.
+
 
 
 # chipathon-2026-gf180mcu-padring
