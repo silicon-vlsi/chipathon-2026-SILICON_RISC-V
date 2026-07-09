@@ -8,6 +8,7 @@
 
 # chipathon-2026-gf180mcu-padring
 
+
 Chipathon 2026 workshop fork of the wafer-space `gf180mcu-project-template`.
 Adds a new LibreLane slot, `workshop`, that mirrors Juan Moya's
 standalone workshop padring as a native LibreLane slot definition so
